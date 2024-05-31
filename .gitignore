@@ -131,3 +131,10 @@ wandb/offline-run-*
 
 # Ignore temporary files
 temp/
+.idea/
+
+# Ignore model files
+best_model.h5
+waste_bin_model_final.h5
+# Ignore all .h5 files
+*.h5
