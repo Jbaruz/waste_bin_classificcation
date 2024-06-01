@@ -277,7 +277,7 @@ def train():
     plt.show()
 
 # Define the sweep agent to run multiple hyperparameter configurations
-wandb.agent(sweep_id, function=train, count=7)  # Adjust the count based on the number of runs desired
+wandb.agent(sweep_id, function=train, count=3)  # Adjust the count based on the number of runs desired
 
 # Function to make a prediction on a given image
 def make_prediction(image_path):
